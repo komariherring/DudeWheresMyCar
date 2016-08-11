@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE58BC1D1D5CDC6600B6BC76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC1C1D5CDC6600B6BC76 /* main.m */; };
+		EE58BC201D5CDC6600B6BC76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC1F1D5CDC6600B6BC76 /* AppDelegate.m */; };
+		EE58BC231D5CDC6600B6BC76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC221D5CDC6600B6BC76 /* ViewController.m */; };
+		EE58BC261D5CDC6600B6BC76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE58BC241D5CDC6600B6BC76 /* Main.storyboard */; };
+		EE58BC291D5CDC6600B6BC76 /* DudeWheresMyCar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC271D5CDC6600B6BC76 /* DudeWheresMyCar.xcdatamodeld */; };
+		EE58BC2B1D5CDC6600B6BC76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE58BC2A1D5CDC6600B6BC76 /* Assets.xcassets */; };
+		EE58BC2E1D5CDC6600B6BC76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE58BC2C1D5CDC6600B6BC76 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE58BC181D5CDC6600B6BC76 /* DudeWheresMyCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DudeWheresMyCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE58BC1C1D5CDC6600B6BC76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE58BC1E1D5CDC6600B6BC76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE58BC1F1D5CDC6600B6BC76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE58BC211D5CDC6600B6BC76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE58BC221D5CDC6600B6BC76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE58BC251D5CDC6600B6BC76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE58BC281D5CDC6600B6BC76 /* DudeWheresMyCar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DudeWheresMyCar.xcdatamodel; sourceTree = "<group>"; };
+		EE58BC2A1D5CDC6600B6BC76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE58BC2D1D5CDC6600B6BC76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE58BC2F1D5CDC6600B6BC76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE58BC151D5CDC6600B6BC76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE58BC0F1D5CDC6600B6BC76 = {
+			isa = PBXGroup;
+			children = (
+				EE58BC1A1D5CDC6600B6BC76 /* DudeWheresMyCar */,
+				EE58BC191D5CDC6600B6BC76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE58BC191D5CDC6600B6BC76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE58BC181D5CDC6600B6BC76 /* DudeWheresMyCar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE58BC1A1D5CDC6600B6BC76 /* DudeWheresMyCar */ = {
+			isa = PBXGroup;
+			children = (
+				EE58BC1E1D5CDC6600B6BC76 /* AppDelegate.h */,
+				EE58BC1F1D5CDC6600B6BC76 /* AppDelegate.m */,
+				EE58BC211D5CDC6600B6BC76 /* ViewController.h */,
+				EE58BC221D5CDC6600B6BC76 /* ViewController.m */,
+				EE58BC241D5CDC6600B6BC76 /* Main.storyboard */,
+				EE58BC2A1D5CDC6600B6BC76 /* Assets.xcassets */,
+				EE58BC2C1D5CDC6600B6BC76 /* LaunchScreen.storyboard */,
+				EE58BC2F1D5CDC6600B6BC76 /* Info.plist */,
+				EE58BC271D5CDC6600B6BC76 /* DudeWheresMyCar.xcdatamodeld */,
+				EE58BC1B1D5CDC6600B6BC76 /* Supporting Files */,
+			);
+			path = DudeWheresMyCar;
+			sourceTree = "<group>";
+		};
+		EE58BC1B1D5CDC6600B6BC76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE58BC1C1D5CDC6600B6BC76 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE58BC171D5CDC6600B6BC76 /* DudeWheresMyCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE58BC321D5CDC6600B6BC76 /* Build configuration list for PBXNativeTarget "DudeWheresMyCar" */;
+			buildPhases = (
+				EE58BC141D5CDC6600B6BC76 /* Sources */,
+				EE58BC151D5CDC6600B6BC76 /* Frameworks */,
+				EE58BC161D5CDC6600B6BC76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DudeWheresMyCar;
+			productName = DudeWheresMyCar;
+			productReference = EE58BC181D5CDC6600B6BC76 /* DudeWheresMyCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE58BC101D5CDC6600B6BC76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "The Iron Yard";
+				TargetAttributes = {
+					EE58BC171D5CDC6600B6BC76 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EE58BC131D5CDC6600B6BC76 /* Build configuration list for PBXProject "DudeWheresMyCar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE58BC0F1D5CDC6600B6BC76;
+			productRefGroup = EE58BC191D5CDC6600B6BC76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE58BC171D5CDC6600B6BC76 /* DudeWheresMyCar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE58BC161D5CDC6600B6BC76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE58BC2E1D5CDC6600B6BC76 /* LaunchScreen.storyboard in Resources */,
+				EE58BC2B1D5CDC6600B6BC76 /* Assets.xcassets in Resources */,
+				EE58BC261D5CDC6600B6BC76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE58BC141D5CDC6600B6BC76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE58BC291D5CDC6600B6BC76 /* DudeWheresMyCar.xcdatamodeld in Sources */,
+				EE58BC231D5CDC6600B6BC76 /* ViewController.m in Sources */,
+				EE58BC201D5CDC6600B6BC76 /* AppDelegate.m in Sources */,
+				EE58BC1D1D5CDC6600B6BC76 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE58BC241D5CDC6600B6BC76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE58BC251D5CDC6600B6BC76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE58BC2C1D5CDC6600B6BC76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE58BC2D1D5CDC6600B6BC76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE58BC301D5CDC6600B6BC76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE58BC311D5CDC6600B6BC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE58BC331D5CDC6600B6BC76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DudeWheresMyCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.DudeWheresMyCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE58BC341D5CDC6600B6BC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DudeWheresMyCar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.DudeWheresMyCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE58BC131D5CDC6600B6BC76 /* Build configuration list for PBXProject "DudeWheresMyCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE58BC301D5CDC6600B6BC76 /* Debug */,
+				EE58BC311D5CDC6600B6BC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE58BC321D5CDC6600B6BC76 /* Build configuration list for PBXNativeTarget "DudeWheresMyCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE58BC331D5CDC6600B6BC76 /* Debug */,
+				EE58BC341D5CDC6600B6BC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE58BC271D5CDC6600B6BC76 /* DudeWheresMyCar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE58BC281D5CDC6600B6BC76 /* DudeWheresMyCar.xcdatamodel */,
+			);
+			currentVersion = EE58BC281D5CDC6600B6BC76 /* DudeWheresMyCar.xcdatamodel */;
+			path = DudeWheresMyCar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE58BC101D5CDC6600B6BC76 /* Project object */;
+}
