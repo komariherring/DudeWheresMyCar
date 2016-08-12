@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		EE58BC1D1D5CDC6600B6BC76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC1C1D5CDC6600B6BC76 /* main.m */; };
 		EE58BC201D5CDC6600B6BC76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC1F1D5CDC6600B6BC76 /* AppDelegate.m */; };
-		EE58BC231D5CDC6600B6BC76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC221D5CDC6600B6BC76 /* ViewController.m */; };
+		EE58BC231D5CDC6600B6BC76 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC221D5CDC6600B6BC76 /* MapViewController.m */; };
 		EE58BC261D5CDC6600B6BC76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE58BC241D5CDC6600B6BC76 /* Main.storyboard */; };
 		EE58BC291D5CDC6600B6BC76 /* DudeWheresMyCar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC271D5CDC6600B6BC76 /* DudeWheresMyCar.xcdatamodeld */; };
 		EE58BC2B1D5CDC6600B6BC76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE58BC2A1D5CDC6600B6BC76 /* Assets.xcassets */; };
 		EE58BC2E1D5CDC6600B6BC76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE58BC2C1D5CDC6600B6BC76 /* LaunchScreen.storyboard */; };
+		EE58BC391D5CE16200B6BC76 /* Car+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC361D5CE16200B6BC76 /* Car+CoreDataProperties.m */; };
+		EE58BC3A1D5CE16200B6BC76 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = EE58BC381D5CE16200B6BC76 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +23,17 @@
 		EE58BC1C1D5CDC6600B6BC76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE58BC1E1D5CDC6600B6BC76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE58BC1F1D5CDC6600B6BC76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE58BC211D5CDC6600B6BC76 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE58BC221D5CDC6600B6BC76 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE58BC211D5CDC6600B6BC76 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		EE58BC221D5CDC6600B6BC76 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		EE58BC251D5CDC6600B6BC76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE58BC281D5CDC6600B6BC76 /* DudeWheresMyCar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DudeWheresMyCar.xcdatamodel; sourceTree = "<group>"; };
 		EE58BC2A1D5CDC6600B6BC76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE58BC2D1D5CDC6600B6BC76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE58BC2F1D5CDC6600B6BC76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE58BC351D5CE16200B6BC76 /* Car+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Car+CoreDataProperties.h"; sourceTree = "<group>"; };
+		EE58BC361D5CE16200B6BC76 /* Car+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Car+CoreDataProperties.m"; sourceTree = "<group>"; };
+		EE58BC371D5CE16200B6BC76 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Car.h; path = ../Car.h; sourceTree = "<group>"; };
+		EE58BC381D5CE16200B6BC76 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Car.m; path = ../Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				EE58BC1A1D5CDC6600B6BC76 /* DudeWheresMyCar */,
+				EE58BC3B1D5CE17800B6BC76 /* DONT TOUCH!! */,
 				EE58BC191D5CDC6600B6BC76 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,8 +69,10 @@
 			children = (
 				EE58BC1E1D5CDC6600B6BC76 /* AppDelegate.h */,
 				EE58BC1F1D5CDC6600B6BC76 /* AppDelegate.m */,
-				EE58BC211D5CDC6600B6BC76 /* ViewController.h */,
-				EE58BC221D5CDC6600B6BC76 /* ViewController.m */,
+				EE58BC211D5CDC6600B6BC76 /* MapViewController.h */,
+				EE58BC221D5CDC6600B6BC76 /* MapViewController.m */,
+				EE58BC371D5CE16200B6BC76 /* Car.h */,
+				EE58BC381D5CE16200B6BC76 /* Car.m */,
 				EE58BC241D5CDC6600B6BC76 /* Main.storyboard */,
 				EE58BC2A1D5CDC6600B6BC76 /* Assets.xcassets */,
 				EE58BC2C1D5CDC6600B6BC76 /* LaunchScreen.storyboard */,
@@ -80,6 +89,15 @@
 				EE58BC1C1D5CDC6600B6BC76 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE58BC3B1D5CE17800B6BC76 /* DONT TOUCH!! */ = {
+			isa = PBXGroup;
+			children = (
+				EE58BC351D5CE16200B6BC76 /* Car+CoreDataProperties.h */,
+				EE58BC361D5CE16200B6BC76 /* Car+CoreDataProperties.m */,
+			);
+			name = "DONT TOUCH!!";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,8 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE58BC3A1D5CE16200B6BC76 /* Car.m in Sources */,
 				EE58BC291D5CDC6600B6BC76 /* DudeWheresMyCar.xcdatamodeld in Sources */,
-				EE58BC231D5CDC6600B6BC76 /* ViewController.m in Sources */,
+				EE58BC391D5CE16200B6BC76 /* Car+CoreDataProperties.m in Sources */,
+				EE58BC231D5CDC6600B6BC76 /* MapViewController.m in Sources */,
 				EE58BC201D5CDC6600B6BC76 /* AppDelegate.m in Sources */,
 				EE58BC1D1D5CDC6600B6BC76 /* main.m in Sources */,
 			);
